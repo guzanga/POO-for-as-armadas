@@ -1,6 +1,6 @@
 <?php
 
-class Tenente extends Exercito {
+class Tenente extends Exercito implements ExercitoInterface {
     public function __construct($nome, $patente, $arma, $merito_militar) {
         parent::__construct($nome, $patente, $arma, $merito_militar);
     }
