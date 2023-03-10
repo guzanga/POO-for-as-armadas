@@ -1,6 +1,7 @@
 <?php
 
-class Subtenete extends Exercito implements ExercitoInterface{
+class Subtenente extends Exercito implements ExercitoInterface{
+    
     public function __construct($nome, $patente, $arma, $merito_militar) {
         parent::__construct($nome, $patente, $arma, $merito_militar);
     }

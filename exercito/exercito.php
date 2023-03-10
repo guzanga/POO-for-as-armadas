@@ -11,9 +11,9 @@ class Exercito{
 
     public function __construct($nome, $patente, $arma, $merito_militar) {
         $this->nome = $nome;
-        $this->$patente = $patente;
-        $this->$arma = $arma;
-        $this->$merito_militar = $merito_militar;
+        $this->patente = $patente;
+        $this->arma = $arma;
+        $this->merito_militar = $merito_militar;
     }
     
     public function getNome() {
@@ -24,7 +24,7 @@ class Exercito{
         return $this->patente;
     }
     
-    public function getIdade() {
+    public function getArma() {
         return $this->arma;
     }
     

@@ -1,4 +1,4 @@
 <?php 
-interface ExercitoInterface {
+interface ExercitoInterface{
     public function grito_of_war();
 }
