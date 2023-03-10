@@ -1,6 +1,6 @@
 <?php
 
-class Execito{
+class Exercito{
     private $nome;
 
     private $patente;
